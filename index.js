@@ -19,7 +19,20 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+<button class="tablinks" onclick="openCity(event, 'About')" 
+id="defaultOpen">About</button>
+
+<button class="tablinks" onclick="openCity(event, 'Contact')" 
+id="defaultOpen">Contact</button>
+
+<button class="tablinks" onclick="openCity(event, 'Games')" 
+id="defaultOpen">Games</button>
+
+<button class="tablinks" onclick="openCity(event, 'Other Projects')" 
+id="defaultOpen">Other Projects</button>
+
+<button class="tablinks" onclick="openCity(event, 'Rania')" 
+id="defaultOpen">Rania</button>
 
 <script>
 // Get the element with id="defaultOpen" and click on it
