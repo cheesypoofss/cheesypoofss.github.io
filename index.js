@@ -41,7 +41,31 @@ document.getElementById("defaultOpen").click();
 
 <!-- Click on the <span> element to close the tab -->
 
-<div id="London" class="tabcontent">
+<div id="About" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <span onclick="this.parentElement.style.display='none'">x</span>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <span onclick="this.parentElement.style.display='none'">x</span>
+</div>
+
+<div id="Games" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <span onclick="this.parentElement.style.display='none'">x</span>
+</div>
+
+<div id="Other Projects" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <span onclick="this.parentElement.style.display='none'">x</span>
+</div>
+
+<div id="Rania" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
   <span onclick="this.parentElement.style.display='none'">x</span>
