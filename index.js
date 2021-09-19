@@ -18,3 +18,18 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<!-- Click on the <span> element to close the tab -->
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+  <span onclick="this.parentElement.style.display='none'">x</span>
+</div>
