@@ -2,12 +2,6 @@ function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
   // Get all elements with class="tablinks" and remove the class "active"
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
@@ -41,32 +35,4 @@ document.getElementById("defaultOpen").click();
 
 <!-- Click on the <span> element to close the tab -->
 
-<div id="About" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span>
-</div>
 
-<div id="Contact" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span>
-</div>
-
-<div id="Games" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span>
-</div>
-
-<div id="Other Projects" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span>
-</div>
-
-<div id="Rania" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <span onclick="this.parentElement.style.display='none'">x</span>
-</div>
