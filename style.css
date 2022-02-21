@@ -36,6 +36,14 @@ ul {
 img {
   width: 100%;
 }
+
+.container {
+  position: relative;
+  z-index: 5;
+  max-width: 92rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
 /*end general styles*/
 
 /* header */
@@ -51,9 +59,6 @@ nav {
   z-index: 50;
 }
 
-.container {
-  max-width: 92rem;
-  background-color: red;
-}
+
 
 /*end header */
