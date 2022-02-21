@@ -59,6 +59,16 @@ nav {
   z-index: 50;
 }
 
+nav .container {
+  display: flex;
+  justify-content: space-between;
 
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
 
 /*end header */
