@@ -103,7 +103,7 @@ nav .container {
 
 }
 
-.links a..active:hover {
+.links a.active:hover {
   color: var(--light-one);
   background-color: #6b44e0;
 
