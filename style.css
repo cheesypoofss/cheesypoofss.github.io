@@ -67,12 +67,6 @@ img {
   margin-right: 1.5rem;
 }
 
-.image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 /*end general styles*/
 
@@ -81,7 +75,6 @@ header {
   width: 100%;
   background-color: var(--light-three);
   overflow: hidden;
-  position: relative;
 }
 
 nav {
@@ -175,6 +168,11 @@ nav .container {
   background-color: #6b44e0;
 }
 
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .header-content .image .img-element {
   max-width: 750px;
@@ -184,13 +182,7 @@ nav .container {
 .overlay {
   position: absolute;
   background-color: red;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  top: 0;
-  left: 0;
 }
-
 
 
 /*end header */
