@@ -168,7 +168,7 @@ nav .container {
   font-size: 1.05rem;
   text-transform: uppercase;
   font-weight: 500;
-  transition: .3s
+  transition: .3s;
 }
 
 .btn:hover {
