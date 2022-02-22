@@ -125,5 +125,17 @@ nav .container {
   text-align: left;
 }
 
+.header-title {
+  font-size: 3.8rem;
+  line-height: 0.8;
+  color: var(--dark-one);
+}
+
+.text {
+  font-size: 1.25rem;
+  color: var(--dark-two);
+  line-height: 1.6;
+}
+
 
 /*end header */
