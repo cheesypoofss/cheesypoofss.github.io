@@ -168,7 +168,7 @@ nav .container {
   font-size: 1.05rem;
   text-transform: uppercase;
   font-weight: 500;
-  transition: .3s;
+  transition: .3s
 }
 
 .btn:hover {
@@ -189,14 +189,6 @@ nav .container {
   overflow: hidden;
   top: 0;
   left: 0;
-}
-
-.letters {
-  position: absolute;
-  width: 13.5%;
-  top: -5px;
-  left: 15px;
-  opacity: 0.06;
 }
 
 
