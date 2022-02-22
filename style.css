@@ -81,6 +81,7 @@ header {
   width: 100%;
   background-color: var(--light-three);
   overflow: hidden;
+  position: relative;
 }
 
 nav {
@@ -182,7 +183,16 @@ nav .container {
 
 .overlay {
   position: absolute;
-  background-color: red;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.letters {
+  position: absolute;
+  width: 13.5%;
 }
 
 
