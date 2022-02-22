@@ -75,7 +75,6 @@ header {
   width: 100%;
   background-color: var(--light-three);
   overflow: hidden;
-  position: relative;
 }
 
 nav {
