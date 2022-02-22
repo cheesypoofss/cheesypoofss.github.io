@@ -178,7 +178,13 @@ nav .container {
 .header-content .image .img-element {
   max-width: 750px;
 
-
 }
+
+.overlay {
+  position: absolute;
+  background-color: red;
+}
+
+
 
 /*end header */
